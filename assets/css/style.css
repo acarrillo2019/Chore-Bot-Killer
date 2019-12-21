@@ -1,63 +1,63 @@
 body {
     background-color: #000000;
     margin: 0px;
-  }
-  
-  .header {
+}
+
+.header {
     background-color: #ffa600;
-  }
-  
-  .title-row {
-    margin-top: 42px;
+}
+
+.title-row {
+    margin-top: 50px;
     margin-bottom: 21px;
     text-align: center;
-  }
-  
-  .instructions-title {
+}
+
+.instructions-title {
     display: inline;
-    font-size: 18px;
-    color: #00ffff;
-    font-family: 'Work Sans';
-  }
-  
-  .instructions-row {
+    font-size: 40px;
+    color: #bb2020;
+    font-family: 'Girassol';
+}
+
+.instructions-row {
     margin: 0 auto;
     width: 400px;
-  }
-  
-  .instructions-number {
+}
+
+.instructions-number {
     padding-right: 25px;
-    font-family: 'Work Sans';
-    font-size: 36px;
-    color: #00ffff;
-  }
-  
-  .instructions-text {
+    font-family: 'Girassol';
+    font-size: 30px;
+    color: #bb2020;
+}
+
+.instructions-text {
     padding: 10px;
-    font-family: 'Work Sans';
-    font-size: 14px;
+    font-family: 'Girassol';
+    font-size: 18px;
     color: #ffffff;
-  }
-  
-  .door-row {
+}
+
+.door-row {
     text-align: center;
-  }
-  
-  .door-frame {
+}
+
+.door-frame {
     cursor: pointer;
     padding: 10px;
-  }
-  
-  .start-row {
+}
+
+.start-row {
     margin: auto;
     width: 120px;
     height: 43px;
-    font-family:'Work Sans';
-    background-color: #eb6536;
+    font-family: 'Girassol';
+    background-color: #bb2020;
     padding-top: 18px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
-    color: #010165;
+    color: #ffffff;
     margin-bottom: 21px;
     cursor: pointer;
-  }
+}
