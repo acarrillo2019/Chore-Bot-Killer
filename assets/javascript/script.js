@@ -11,12 +11,12 @@ let openDoor1;
 let openDoor2;
 let openDoor3;
 let currentlyPlaying = true;
-let closedDoorPath = "assets/images/scary_door.jpg";
+let closedDoorPath1 = "assets/images/not_scary_at_all_door.jpg";
+let closedDoorPath2 = "assets/images/scary_door.jpg";
+let closedDoorPath3 = "assets/images/very_scary_door.jpg";
 
 
-
-
-
+//Id's kitty
 const isBot = (door) => {
     if (door.src === botDoorPath) {
         return true;
@@ -26,7 +26,7 @@ const isBot = (door) => {
 }
 
 const isClicked = (door) => {
-    if (door.src === closedDoorPath) {
+    if (door.src === closedDoorPath1 || door.src === closedDoorPath2 || door.src === closedDoorPath3) {
         return false;
     } else {
         return true;
@@ -92,9 +92,9 @@ startButton.onclick = () => {
 }
 
 const startRound = () => {
-    door1.src = closedDoorPath;
-    door2.src = closedDoorPath;
-    door3.src = closedDoorPath;
+    door1.src = closedDoorPath1;
+    door2.src = closedDoorPath2;
+    door3.src = closedDoorPath3;
     numClosedDoors = 3;
     currentlyPlaying = true;
     startButton.innerHTML = 'Good luck!';
