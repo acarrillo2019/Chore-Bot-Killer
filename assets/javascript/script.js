@@ -20,10 +20,10 @@ let openDoor1;
 let openDoor2;
 let openDoor3;
 let currentlyPlaying = true;
-let closedDoorPath1 = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"; 
+let closedDoorPath1 = "https://twistedskillz.com/wp-content/uploads/2019/12/not_scary_at_all_door.jpg"; 
 // "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"
-let closedDoorPath2 = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg";
-let closedDoorPath3 = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg";
+let closedDoorPath2 = "https://twistedskillz.com/wp-content/uploads/2019/12/scary_door.jpg";
+let closedDoorPath3 = "https://twistedskillz.com/wp-content/uploads/2019/12/very_scary_door.jpg";
 let wins = 0;
 
 
