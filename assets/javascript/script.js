@@ -59,7 +59,7 @@ const randomChoreDoorGenerator = () => {
 door1.onclick = () => {
     if(currentlyPlaying && !isClicked(door1) && openDoor1 === botDoorPath) {
         doorImage1.src = openDoor1;
-        gameOver('win');
+        gameOver('win');    
         currentlyPlaying = false;
   } else if (currentlyPlaying && !isClicked(door1) && openDoor1 === beachDoorPath){
       doorImage1.src = openDoor1;
