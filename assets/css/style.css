@@ -8,7 +8,7 @@ body {
 }
 
 .title-row {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 21px;
     text-align: center;
 }
@@ -58,6 +58,19 @@ body {
     font-size: 20px;
     text-align: center;
     color: #ffffff;
-    margin-bottom: 21px;
+    margin-bottom: 18px;
     cursor: pointer;
+}
+
+.totalWins {
+    margin: auto;
+    width: 120px;
+    height: 30px;
+    font-family: 'Girassol';
+    background-color: #bb2020;
+    padding-top: 9px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
 }
